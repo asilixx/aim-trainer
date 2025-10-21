@@ -1,22 +1,29 @@
-# Voici notre Aim Trainer
+# 🎯 Aim Trainer
 
- 
+This is my **very first web project** — a simple and interactive **Aim Trainer** built with **HTML, CSS, and JavaScript**.  
+It was created to practice my front-end development skills while building a small but fun game that tests precision and reflexes.
 
-Dans ce jeu d’adresse, on doit détruire un certain nombre de cibles tout en gardant une bonne précision. Nous avons intégré les fonctionnalités suivantes :
+---
 
- 
+## 🚀 Features
+- 🕹️ Random target generation  
+- 🕒 Timer and score tracking  
+- 🎨 Clean and responsive interface  
+- ⚡ Real-time accuracy feedback  
+- 💡 Lightweight and runs in any browser
 
-- Un viseur qui suit la position de la souris.
+---
 
-- Un chronomètre qui mesure le temps de la partie.
+## 🛠️ Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (vanilla)**
 
-- Un calcul de précision en temps réel, basé sur les clics réussis et le total des clics.
+---
 
-- Un bouton pour rejouer une partie une fois terminée.
+## 📦 Installation & Run
+Clone this repository and open `index.html` in your browser:
 
- 
-
-Le projet a été réalisé en peu de temps, mais nous avons priorisé la fluidité et le fonctionnement des principales mécaniques. C’est une version simple mais fonctionnelle.
-
-Nous avons aussi voulu stocker la précision dans un local storage mais on a pas reussi.
-Avec plus de temps on aurait surement reussi a rendre un jeu plus complet et plus flexible avec d'autres fonctionnalitées.
+```bash
+git clone https://github.com/tonpseudo/aim-trainer.git
+cd aim-trainer
