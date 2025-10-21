@@ -27,5 +27,5 @@ It was created to practice my front-end development skills while building a smal
 Clone this repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/tonpseudo/aim-trainer.git
+git clone https://github.com/asilixx/aim-trainer.git
 cd aim-trainer
