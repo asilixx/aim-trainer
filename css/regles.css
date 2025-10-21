@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e1f26;
+  color: rgb(156, 163, 168);
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgb(32, 33, 41);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(182, 190, 196);
+}
+
+#languageSelector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.flag {
+  width: 40px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.flag:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  border: 0;
+  width: 200px;
+  height: 45px;
+  font-weight: 700;
+  color: #1e1f26;
+  background-color: rgb(182, 190, 196);
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(156, 163, 168);
+  color: #1e1f26;
+}
+
+.regles {
+  display: none;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+  color: rgb(182, 190, 196);
+  text-align: left;
+  background-color: rgb(44, 45, 55);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.regles.visible {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}

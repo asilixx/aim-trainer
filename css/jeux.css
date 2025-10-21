@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1e1f26;
+    cursor: none;  
+    position: relative; 
+    overflow: hidden;
+    user-select: none;
+}
+
+.viseur {
+    position: absolute; 
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 100%;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.cible {
+    position: absolute;
+    background-color: yellow;
+    cursor: none;}
+
+.precision{
+    height: 5%;
+    width: 8%;
+    color: beige;
+    text-align: center;
+    font-size:2ch
+}
+
+.rejouer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    display: none;
+    cursor: none;
+  }
+
+.chrono {
+    height: 2%;
+    width: 4%;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+  
