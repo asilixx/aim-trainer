@@ -3,6 +3,8 @@
 This is my **very first web project** — a simple and interactive **Aim Trainer** built with **HTML, CSS, and JavaScript**.  
 It was created to practice my front-end development skills while building a small but fun game that tests precision and reflexes.
 
+⚡ This is my first web development project — built with curiosity and a desire to learn. I’m continuously improving it as I progress.
+
 ---
 
 ## 🚀 Features
